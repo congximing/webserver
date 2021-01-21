@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>log</servlet-name>
+        <servlet-class>com.cxm.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>log</servlet-name>
+        <url-pattern>/g</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>l</servlet-name>
+        <servlet-class>com.cxm.server.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>l</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+</web-app>
